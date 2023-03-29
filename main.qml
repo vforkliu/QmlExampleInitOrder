@@ -3,7 +3,7 @@ import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
 import com.example.window 2.15
 
-ZWindow {
+OZWindow {
     id: root
     width: 640
     height: 480

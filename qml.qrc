@@ -2,5 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>VToolBar.qml</file>
+        <file>OZWindow.qml</file>
     </qresource>
 </RCC>
