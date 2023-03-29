@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>VToolBar.qml</file>
+    </qresource>
+</RCC>
