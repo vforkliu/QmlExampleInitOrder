@@ -1,6 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 
+#include "qquickywindow.h"
+#include "qquickzwindow.h"
+
 int main(int argc, char *argv[])
 {
 #if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
@@ -8,6 +11,10 @@ int main(int argc, char *argv[])
 #endif
 
     QGuiApplication app(argc, argv);
+
+    const char* uriWindow = "com.example.window";
+    qmlRegisterType<QQuickZWindow>(uriWindow, 2, 15, "ZWindow");
+    qmlRegisterType<QQuickYWindow>(uriWindow, 2, 15, "YWindow");
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));

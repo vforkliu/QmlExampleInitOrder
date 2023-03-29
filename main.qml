@@ -1,8 +1,9 @@
-import QtQuick 2.12
-import QtQuick.Window 2.12
-import ObricUI 1.0 as ObricUI
+import QtQuick 2.15
+import QtQuick.Window 2.15
+import QtQuick.Controls 2.15
+import com.example.window 2.15
 
-ObricUI.OWindow {
+ZWindow {
     id: root
     width: 640
     height: 480

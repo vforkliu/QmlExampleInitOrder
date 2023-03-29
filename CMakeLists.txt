@@ -31,6 +31,8 @@ set(TS_FILES QmlExampleInitOrder_zh_CN.ts)
 
 set(PROJECT_SOURCES
         main.cpp
+        qquickzwindow.cpp
+        qquickywindow.cpp
         qml.qrc
         ${TS_FILES}
 )
